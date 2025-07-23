@@ -108,7 +108,7 @@ export function VideoHero() {
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="container mx-auto px-4 text-center text-white">
           <div className="flex flex-col items-center justify-center animate-fade-in">
-            <div className="mb-6 transform transition-transform duration-700 hover:scale-105">
+            {/* <div className="mb-6 transform transition-transform duration-700 hover:scale-105">
               <Image
                 src="/images/logo-colegio-berea.png"
                 alt="Logo Colegio Evangelico Berea"
@@ -117,7 +117,7 @@ export function VideoHero() {
                 className="drop-shadow-2xl"
                 priority
               />
-            </div>
+            </div> */}
             <h1 className="mb-4 text-4xl font-bold drop-shadow-lg md:text-5xl lg:text-6xl animate-slide-up">
               Colegio Evangelico Berea
             </h1>
