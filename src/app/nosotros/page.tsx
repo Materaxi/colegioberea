@@ -8,7 +8,8 @@ export default function NosotrosPage() {
       <PageBanner
         title="Nosotros"
         subtitle="Conoce nuestra historia, misión y visión"
-        backgroundImage="/placeholder.svg?height=400&width=1200&text=Historia+del+Colegio"
+        backgroundImage="/images/nosotros.png"
+        // backgroundImage="/placeholder.svg?height=400&width=1200&text=Historia+del+Colegio"
       />
 
       {/* Historia Section */}
