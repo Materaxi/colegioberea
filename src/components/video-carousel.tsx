@@ -8,7 +8,7 @@ export function VideoCarousel() {
 
   const videos = [
     {
-      thumbnail: "/placeholder.svg?height=400&width=800",
+      thumbnail: "/videos/resumen_dia_estudiante.mp4",
       title: "Bienvenida del Director",
       description: "Mensaje de bienvenida del director del Colegio Evangelico Berea.",
     },
@@ -58,10 +58,11 @@ export function VideoCarousel() {
             <div className="relative h-full w-full">
               {/* Video thumbnail with play button overlay */}
               <div className="relative h-full w-full">
-                <img
+                <video
                   src={video.thumbnail || "/placeholder.svg"}
-                  alt={video.title}
                   className="h-full w-full object-cover"
+                  autoPlay
+                  muted
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/80 text-[#0a192f] transition-transform hover:scale-110">

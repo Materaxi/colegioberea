@@ -9,7 +9,7 @@ export default function EstudiantilPage() {
       <PageBanner
         title="Vida Estudiantil"
         subtitle="Experiencias que forman para toda la vida"
-        backgroundImage="/placeholder.svg?height=400&width=1200&text=Vida+Estudiantil"
+        backgroundImage="/images/estudiantil.png"
       />
 
       {/* Vida Académica */}
@@ -39,7 +39,7 @@ export default function EstudiantilPage() {
             </div>
             <div className="rounded-lg bg-white p-4 shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/estudiantil_1.jpeg"
                 alt="Estudiantes en clase"
                 width={600}
                 height={400}
@@ -75,7 +75,7 @@ export default function EstudiantilPage() {
             </div>
             <div className="order-1 rounded-lg bg-gray-50 p-4 shadow-lg md:order-2">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/estudiantil_2.jpeg"
                 alt="Actividades espirituales"
                 width={600}
                 height={400}

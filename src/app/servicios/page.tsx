@@ -8,7 +8,7 @@ export default function ServiciosPage() {
       <PageBanner
         title="Nuestros Servicios"
         subtitle="Oferta educativa y servicios complementarios"
-        backgroundImage="/placeholder.svg?height=400&width=1200&text=Servicios+Educativos"
+        backgroundImage="/images/servicios.png"
       />
 
       {/* Niveles Educativos */}

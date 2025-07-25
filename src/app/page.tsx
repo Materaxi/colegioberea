@@ -41,7 +41,7 @@ export default function Home() {
             <div className="rounded-lg bg-white p-4 shadow-lg border-t-4 border-yellow-500">
               <Image
                 
-                 src="/placeholder.svg?height=400&width=600"
+                 src="/images/plantel_docente.jpeg"
                 alt="Colegio Evangelico Berea"
                 width={600}
                 height={400}

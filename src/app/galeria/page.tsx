@@ -8,7 +8,7 @@ export default function GaleriaPage() {
       <PageBanner
         title="Galería"
         subtitle="Momentos especiales de nuestra comunidad educativa"
-        backgroundImage="/placeholder.svg?height=400&width=1200&text=Galeria+del+Colegio"
+        backgroundImage="/images/galeria.png"
       />
 
       {/* Categorías de Galería */}

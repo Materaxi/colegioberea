@@ -31,7 +31,7 @@ export default function NosotrosPage() {
             </div>
               <div className="rounded-lg bg-white p-4 shadow-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/plantel_docente_1.jpeg"
                 alt="Historia del Colegio Berea"
                 width={600}
                 height={400}
